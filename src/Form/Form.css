@@ -1,0 +1,122 @@
+.mainbtn {
+    background: rgba(148, 186, 101, 0.7);
+    box-shadow: 0 3px 0 0 darken(rgba(148, 186, 101, 0.7), 10%);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+    outline: none;
+    padding: 10px 30px;
+    text-shadow: 0 1px #68b25b;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .mainbtn:hover {
+    background: rgba(148, 175, 101, 1);
+    text-shadow: 0 1px 3px darken(rgba(148, 186, 101, 0.7), 30%);
+  }
+  
+  .editbtn {
+    background: rgba(148, 186, 101, 0.7);
+    box-shadow: 0 3px 0 0 darken(rgba(148, 186, 101, 0.7), 10%);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+    padding: 5px 10px;
+    text-shadow: 0 1px #68b25b;
+    margin-top: 0px;
+    /* margin-bottom:20px; */
+  }
+  
+  .editbtn:hover {
+    background: rgba(148, 175, 101, 1);
+    text-shadow: 0 1px 3px darken(rgba(148, 186, 101, 0.7), 30%);
+  }
+  
+  .formp {
+    margin: 0 0 20px 0;
+    position: relative;
+  }
+  
+  .updatep {
+    margin: 0 0 20px 0;
+    position: relative;
+  }
+  
+  .updateh2 {
+    margin-bottom: 60px;
+  }
+  
+  .updateLabel {
+    color: black;
+    margin-left: 80px;
+  }
+  
+  .formh2 {
+    margin: 30px 0 50px 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: darken(#e5e5e5, 50%);
+    border-bottom: solid 1px #e5e5e5;
+  }
+  
+  label {
+    position: absolute;
+    left: 220px;
+    top: -30px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  label .floatLabel {
+    top: -11px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+  
+  input,
+  textarea {
+    /* display: block; */
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin: 0;
+  }
+  
+  input {
+    height: 50px;
+  }
+  select {
+    height: 50px;
+  }
+  textarea {
+    height: 150px;
+  }
+  
+  .uploadLabel {
+    top: -11px;
+  }
+
+  .box{
+    background-color: #f2d974;
+    width:400px;
+    height:250px;
+    margin-left:200px;
+  }
+
+  .box h1{
+    padding-top: 20px;
+  }
+  
